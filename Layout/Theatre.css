@@ -1,0 +1,453 @@
+/* Emby version : 3.1.0 and later */
+
+
+/* ------ 3.0 : Global Modifications ------ */
+
+/* --- 3.1 : Buttons --- */
+/* Icons */
+.btnUserItemRating {color: #CCCCCC;}
+paper-fab.btnCommand.subdued.repeatToggleButton.x-scope.paper-fab-0.nowPlayingPageRepeatActive {color: #090909 !important;}
+.scheduledTaskPaperIconItem[data-status="Cancelling"] paper-fab {background-color: #181818;}
+.btnNotificationsInner {background-color: #404040 !important;}
+/* --- 3.2 : Details --- */
+/* Corrections */
+iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scope.iron-autogrow-textarea-0 {height: 300px !important;}
+div.readOnlyContent.dashboardHomeRightColumn.firstDashboardHomeRightColumn div.paperList.activityItems paper-fab.x-scope.paper-fab-0 {background-color: transparent !important;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);
+color: #52B54B !important;}
+div#criticRatingSummary.paperList {
+background-color: transparent !important;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);}
+paper-icon-button.nextTrackButton.mediaButton.videoTrackControl.x-scope.paper-icon-button-0, 
+paper-icon-button.previousTrackButton.mediaButton.videoTrackControl.x-scope.paper-icon-button-0 {
+    color: #FFFFFF !important;}
+paper-icon-button.nextTrackButton.mediaButton.videoTrackControl.x-scope.paper-icon-button-0[disabled], 
+paper-icon-button.previousTrackButton.mediaButton.videoTrackControl.x-scope.paper-icon-button-0[disabled], paper-icon-button.btnNextPage.x-scope.paper-icon-button-0[disabled], 
+paper-icon-button.btnPreviousPage.x-scope.paper-icon-button-0[disabled], paper-icon-button.btnUp.x-scope.paper-icon-button-0[disabled], paper-icon-button.btnDown.x-scope.paper-icon-button-0[disabled] {color: #9b9b9b !important;}
+div#footer.footer {
+background-color: rgba(02,02,02,.94) !important;}
+.footerNotification {border-top: rgba(02,02,02,.94) !important;}
+h1.pageTitle {font-size: 30px;}
+.nowPlayingBar, .viewMenuBar, .libraryViewNav {background-color: rgba(02,02,02,.50) !important;}
+.nowPlayingBar {border-top: rgba(2,2,2,.50) !important;}
+h1, h1 a {font-size: 22px;}
+div.dialogHeader {background: #090909 !important;}
+div.paperList.itemsListview {
+background: transparent !important;}
+paper-icon-item.localReaderOption.x-scope.paper-icon-item-0 paper-fab.x-scope.paper-fab-0 {background: #444444 !important;}
+/* Report Manager Page */
+div#libraryReportManagerPage.page.libraryPage.noSecondaryNavPage.reportsPage.page-view.ui-page.ui-page-theme-b.ui-body-b div.visualCardBox {
+background: transparent !important;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0);
+    -ms-box-shadow: 0 2px 4px rgba(0,0,0,0);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0);}
+li.ui-li.listItem.ui-li-has-alt.ui-first-child {border-bottom: 1px solid transparent;}
+div#libraryReportManagerPage.page.libraryPage.noSecondaryNavPage.reportsPage.page-view.ui-page.ui-page-theme-b.ui-body-b a.item.ui-btn {
+background: #090909 !important;
+border-color: #090909;
+color: #52B54B !important;}
+div#libraryReportManagerPage.page.libraryPage.noSecondaryNavPage.reportsPage.page-view.ui-page.ui-page-theme-b.ui-body-b a.item.ui-btn:hover {
+background: #52B54B !important;
+border-color: #52B54B;
+color: #090909 !important;}
+div#libraryReportManagerPage.page.libraryPage.noSecondaryNavPage.reportsPage.page-view.ui-page.ui-page-theme-b.ui-body-b a.listviewMenuButton.ui-btn.ui-btn-inline {
+background: transparent !important;
+border-color: transparent;
+color: #FFFFFF !important;}
+/* Metadata Editor Page & Side Panel */
+.libraryTree .jstree-wholerow-hovered {
+    background: #4D4D4D !important;}
+.libraryTree .jstree-default .jstree-hovered {
+	color: #4B0082 !important;}
+a.lnkMediaFolder.sidebarLink iron-icon.sidebarLinkIcon.x-scope.iron-icon-0, a.lnkMediaFolder.sidebarLink span, a.lnkMediaFolder.sidebarLink {color: #EDEDED !important;}
+.adminDrawerPanel #drawer {border-right: transparent;}
+.adminDrawerLogo {
+background: #181818;
+border-bottom: 1px solid #303030 !important;}
+/* Scrollbars */
+::-webkit-scrollbar-corner {background-color: #3B3B3B;}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #3B3B3B;}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #888888;}
+div.mainDrawer::-webkit-scrollbar-corner {background-color: transparent;}
+div.mainDrawer::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: transparent;}
+div.mainDrawer::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #888888;}
+
+
+
+/* ------ 5.0 : Manual Fixes ------ */
+
+/*--------------------------------------------------------------Remove Card BG and Details Cover Hover---------------------------------------------------------------*/
+div.cardBox.visualCardBox {background-color: transparent !important;
+}
+.itemDetailImage.loaded {
+    -moz-box-shadow: 0 0 20px transparent !important;
+    -webkit-box-shadow: 0 0 20px transparent !important;
+    box-shadow: 0 0 20px transparent !important;
+    border: solid 1px transparent !important;
+}
+
+/*--------------------------------------------------------------RottenTomatoes and general List Entries------------------------------------------*/
+div#criticRatingSummary.paperList {
+    background-color: rgba(0,0,0,.40) !important;
+    color: #CCCCCC !important;
+}
+div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter {
+    background-color: rgba(0,0,0,.20) !important;
+}
+
+/*--------------------------------------------------------------Hide Theme Songs in Details------------------------------------------*/
+#themeSongsCollapsible{ display: none !important;
+}
+
+/*--------------------------------------------------------------White Buttons------------------------------------------*/
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------Emby Theater Detail View Mod (originally created by bfir3)------------------------------------------*/
+@media (min-width: 1450px) {
+div#itemDetailPage {
+    width: 100%;
+    float: left;
+    padding: 0px !important;
+    margin-left: 28px;
+    /* padding-right: 200000px; */
+}
+div#itemBackdrop {
+	position: absolute;
+}
+.detailPageContent {
+    position: relative;
+    top: 50px;
+    width: auto;
+}
+.detailImageContainer {
+    float: left;
+    margin-top: 100px;
+    margin-left: 60px;
+    position: relative;
+}
+div.detailNameContainer>div.desktopDetails {
+    margin-top: 25px !important;
+}
+div.detailNameContainer {
+    margin-top: 20px;
+}
+div.primaryDetailsContainer {
+    position: relative;
+    left: 85px;
+    float: left;
+    top: 0px;
+    width: auto !important;
+    z-index: 1;
+}
+.inlineItemName {
+    font-size: 32px !important;
+}
+.inlineItemName {
+    color: #E4E4E4;
+}
+.itemName {
+    font-weight: normal !important;
+    margin: .5em 0;
+    font-size: 40px;
+}
+.starRating, .starRatingValue {
+	top: -4px !important;
+}
+h2.tagline {
+    color: #54F054;
+}
+p.itemGenres {
+    position: relative;
+    min-height: 15px;
+    font-size: 20px;
+    top: 0px;
+}
+div.detailButtonsContainer {
+    margin-left: -3px;
+    font-size: 120%;
+    top: 55px;
+    z-index: 1000;
+    position: relative;
+}
+div#itemDetailPage div.ui-content[data-role='content'] {
+    padding-top: 0;
+    /* top: -580px; */
+    top: 320px;
+    z-index: 0;
+    clear: both;
+    position: absolute;
+    width: calc(100% - 80px);
+    font-size: 16px;
+}
+.detailPageContent {
+	position: relative;
+	/* width: 100%; */
+	max-width: none;
+}
+.portraitDetailImageContainer img {
+    width: 200px;
+}
+div.detailNameContainer {
+    margin-top: 50px !important;
+    height: auto !important;
+}
+div.detailNameContainer>div:first-child {
+    /* text-align: center; */
+    max-width: 1200px;
+    min-width: 500px;
+    height: 140px;
+    overflow: hidden;
+    margin-top: -45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.detailNameContainer .desktopDetails {
+    font-size: 22px;
+}
+
+.primaryDetailsContainer>.desktopDetails {
+    padding-top: 0px !important;
+}
+
+.detailPageContent>.detailSection:first-child {
+    margin-left: 522px;
+    min-height: 230px;
+    order: -3;
+}
+.primaryDetailsContainer>.desktopDetails {
+    padding-top: 0px !important;  
+}
+
+.nextUpSection.detailSection {
+    margin-left: 522px;
+    min-height: 300px;
+    margin-top: -60px;
+    order: -2;
+}
+
+
+.tileContent {
+    position: relative !important;
+    text-align: left;
+    vertical-align: top;
+    overflow: hidden;
+    z-index: 1000;
+    bottom: 30px;
+    font-size: 14px;
+}
+
+#castContent a.tileItem.smallPosterTileItem {
+    width: 214px !important;
+    margin: 0;
+}
+
+.smallPosterTileItem .tileImage {
+    width: 80% !important;
+    height: 264px !important;
+}
+
+.tileItem p {
+    margin: 0 !important;
+}
+
+.tileItem p:first-child {
+    color: #2BC253;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ui-content>.detailPageContent {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.btnPlay.detailFloatingButton {
+    top: 275px;
+    z-index: 1001;
+    left: 1100px;
+    position: absolute;
+}
+
+#childrenContent .card {
+    width: 15%;
+}
+
+div#childrenCollapsible {
+    /* min-height: 360px; */
+    display: block !important;
+}
+div#childrenCollapsible.hide {
+    visibility: hidden;
+}
+
+div#castContent {
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+paper-button.more.morePeople {
+    margin-bottom: 11px;
+}
+.portraitDetailImageContainer img {
+    width: 400px;
+}
+.nextUpSection.detailSection.hide {
+    display: block !important;
+    visibility: hidden;
+}
+
+.skinContainer.withBackdrop {
+    /* margin: 0 10px 0 30px; */
+}
+
+a#lnkNextItem,a#lnkPreviousItem {
+    z-index: 1000;
+}
+
+div.ui-content>div.detailPageContent>.detailSection:first-child {
+    /* top: 500px; */
+    /* position: relative; */
+}
+
+.thumbDetailImageContainer img, .squareDetailImageContainer img {
+    width: 478px;
+}
+
+.collectionItems .detailSection:first-child{
+    margin-top: 360px;
+}
+
+#mediaInfoContent div:last-child {
+    max-width: none !important;
+}
+.portraitCard {
+    width: 14.2% !important;
+}
+.detailPage169Card {
+    width: 25% !important;
+    margin-right: 60px !important;
+    margin-bottom: 30px;
+}
+/*
+div#scenesCollapsible {
+    margin-top: -450px;
+	margin-bottom: 0em !important;
+}*/
+.backdropCard {
+    width: 25% !important;
+}
+div#scenesCollapsible {
+    order: -1;
+	margin-bottom: 0em;
+    //margin-top: -500px;
+}
+.listPaging {
+    width: 100%;
+}
+.cardContent .cardFooter {
+    left: 1px !important;
+}
+.cardContent .cardFooter .cardText {
+    font-size: 80%;
+}
+.nowPlayingBar, .nowPlayingImage img {
+    min-height: 80px;
+}
+.criticRating {
+    top: 0px !important;
+}
+.starRatingValue + .rottentomatoesicon {
+    top: -4px !important;
+}
+.starRatingContainer iron-icon {
+    color: #ffca00 !important;
+    width: 3vh;
+    height: 3vh;
+}
+div#criticReviewsCollapsible {
+    order: -1;
+    margin-top: -300px;
+    margin-left: 520px;
+    margin-bottom: 7em !important;
+}
+}
+/*Frontend Tweaks*/
+/*Make Played Indicator into Ribbon LHS*/
+/*.playedIndicator i, .syncIndicator i {
+	font-size: 150% !important;
+	transform: rotate(45deg) !important;
+}
+.playedIndicator {
+	top: 4px !important;
+	left: -21px !important;
+	width: 75px!important;
+	height: 25px !important;
+	border-radius: 0% !important;
+	transform: rotate(-45deg) !important;
+	background: rgba(82,181,75,.95) !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: rgba(255, 255, 255, 0.5) !important;
+}*/
+/*Move Overlay Button to top right*/
+/*.cardOverlayButtonContainer {
+	top: -11px !important;
+	right: -5px !important;
+}*/
+/*Fixed Navigation Arrows In Place*/
+ .lnkSibling {
+ 	position: fixed; top: 25%;
+}
+ /*Center Card Footer*/
+.cardContent .cardFooter {
+	width: 100%;
+	text-align: center;
+}
+.homePageSection .cardBox .cardText {
+    background-color: #52B54B;
+}
+.adminDrawer .scrollContainer  {
+    background: #181818 !important;
+}
+.collapseContent {
+    background-color: #181818 !important;
+}             
+.withBackdrop {
+	background-color: rgba(0,0,0,.5);
+}
+/*Backend Fixes*/
+/*Fix Dasboard Menu Bar Showing Progress Bars*/
+.dashboardDocument .viewMenuBar {
+	z-index: 1000;
+}
+/*Reports Filter Menu Fix*/
+.ui-panel-inner {
+	position: static !important;
+	background: #222;
+}
+.ui-panel.ui-panel-open {
+	position: absolute !important;
+}
+.ui-body-b.ui-panel {
+	height: initial;
+	min-height: initial;
+	bottom: initial;
+}
