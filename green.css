@@ -741,7 +741,7 @@ div#criticReviewsCollapsible {
 }
 /*Frontend Tweaks*/
 /*Make Played Indicator into Ribbon LHS*/
-.playedIndicator i, .syncIndicator i {
+/*.playedIndicator i, .syncIndicator i {
 	font-size: 150% !important;
 	transform: rotate(45deg) !important;
 }
@@ -756,7 +756,7 @@ div#criticReviewsCollapsible {
 	border-style: solid !important;
 	border-width: 1px !important;
 	border-color: rgba(255, 255, 255, 0.5) !important;
-}
+}*/
 /*Move Overlay Button to top right*/
 .cardOverlayButtonContainer {
 	top: -11px !important;
