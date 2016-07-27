@@ -744,7 +744,7 @@ div#criticReviewsCollapsible {
     background-color: #52B54B;
 }
 .adminDrawer .scrollContainer  {
-    background: #222222 !important;
+    background: #000 !important;
 }
 .collapseContent {
     background-color: #222222 !important;
