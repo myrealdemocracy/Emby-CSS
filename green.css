@@ -747,6 +747,9 @@ div#criticReviewsCollapsible {
 /*Move Overlay Button to top right*/
 .cardOverlayButtonContainer {top: -11px !important; right: -5px !important;}
 
+/*Fixed Navigation Arrows In Place*/
+ .lnkSibling {position: fixed; top: 25%;}
+ 
 /*Center Card Footer*/
 .cardContent .cardFooter {width: 100%; text-align: center;}
 
