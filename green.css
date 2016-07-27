@@ -750,8 +750,6 @@ div#criticReviewsCollapsible {
 /*Center Card Footer*/
 .cardContent .cardFooter {width: 100%; text-align: center;}
 
-/*Fixed Navigation Arrows In Place*/
-.lnkSibling {position: fixed; top: 25%;}
 .homePageSection .cardBox .cardText {
     background-color: #52B54B;
 }
