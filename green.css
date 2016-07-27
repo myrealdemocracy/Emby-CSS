@@ -741,12 +741,12 @@ div#criticReviewsCollapsible {
 }
 .playedIndicator {width: 30px; height: 30px; border-style: solid; border-width: 2px;}
 .homePageSection .cardBox .cardText {
-    background-color: #222222;
+    background-color: #181818;
 }
 .adminDrawer .scrollContainer  {
-    background: #222222 !important;
+    background: #181818 !important;
 }
 .collapseContent {
-    background-color: #222222 !important;
+    background-color: #181818 !important;
 }             
 .withBackdrop {background-color: rgba(0,0,0,.5);}
