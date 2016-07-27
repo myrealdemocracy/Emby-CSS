@@ -739,7 +739,19 @@ div#criticReviewsCollapsible {
     margin-bottom: 7em !important;
 }
 }
-.playedIndicator {width: 30px; height: 30px; border-style: solid; border-width: 2px;}
+/*Frontend Tweaks*/
+/*Make Played Indicator into Ribbon LHS*/
+.playedIndicator i, .syncIndicator i {font-size: 150%; transform: rotate(45deg);}
+.playedIndicator {top: 4px; left: -21px !important; width: 75px; height: 25px; border-radius: 0%; transform: rotate(-45deg); background: rgba(82,181,75,.95); border-style: solid; border-width: 1px; border-color: rgba(255, 255, 255, 0.5);}
+
+/*Move Overlay Button to top right*/
+.cardOverlayButtonContainer {top: -11px !important; right: -5px !important;}
+
+/*Center Card Footer*/
+.cardContent .cardFooter {width: 100%; text-align: center;}
+
+/*Fixed Navigation Arrows In Place*/
+.lnkSibling {position: fixed; top: 25%;}
 .homePageSection .cardBox .cardText {
     background-color: #52B54B;
 }
@@ -750,3 +762,11 @@ div#criticReviewsCollapsible {
     background-color: #181818 !important;
 }             
 .withBackdrop {background-color: rgba(0,0,0,.5);}
+/*Backend Fixes*/
+/*Fix Dasboard Menu Bar Showing Progress Bars*/
+.dashboardDocument .viewMenuBar {z-index: 1000;}
+
+/*Reports Filter Menu Fix*/
+.ui-panel-inner {position: static !important; background: #222;}
+.ui-panel.ui-panel-open {position: absolute !important;}
+.ui-body-b.ui-panel {height: initial; min-height: initial; bottom: initial;}
