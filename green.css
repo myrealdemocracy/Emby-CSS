@@ -1,4 +1,4 @@
-/* Emby version : 3.0.5970 and later */
+/* Emby version : 3.1.0 and later */
 
 /* Color HEX codes */
 
@@ -747,6 +747,6 @@ div#criticReviewsCollapsible {
     background: #222222 !important;
 }
 .collapseContent {
-    background-color: #202020 !important;
+    background-color: #222222 !important;
 }             
 .withBackdrop {background-color: rgba(0,0,0,.5);}
