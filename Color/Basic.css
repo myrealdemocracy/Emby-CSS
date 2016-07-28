@@ -4,14 +4,49 @@
   --main-color-alt: rgb(232,17,35);
   --accent-color: #94131E;
   --glow-color: rgba(232,17,35,.5);
+  --gray-1: #9b9b9b;	
+  --gray-2: #4D4D4D;	
+  --gray-3: #404040;	
+  --dark-gray-1: #101010;
+  --dark-gray-1-alt: rgb(16,16,16);
+  --dark-gray-2: #19191A;
+  --dark-gray-3: #222222;
+  --dark-gray-4: #2B2B2B;
+  --dark-gray-5: #343434;
+  --dark-gray-6: #444444;
+  --dark-gray-7: #737373;	
+  --black-1: #080808;	
+  --black-2: #010101;	
+  --white-color-1: #CCCCCC;
+  --white-color-2: #AAAAAA;
+  --white-color-3: #FFFFFF;
+  --white-color-4: #BBBBBB;
 }
 
 /* Color HEX codes */
 
-/* Main Color  : var(--main-color)
-/* Main Color2 : var(--main-color-alt)
-/* Dark Color  : var(--accent-color)
-/* Clow Color  : var(--glow-color)
+/* Main Color      : var(--main-color)
+/* Main Color alt  : var(--main-color-alt)
+/* Dark Color      : var(--accent-color)
+/* Clow Color      : var(--glow-color)
+/* Gray 1          : var(--gray-1)		(Link hover & Disabled)
+/* Gray 2          : var(--gray-2)		(Sidelink Panel hover backgrounds)
+/* Gray 3          : var(--gray-3)		(Button backgrounds)
+/* Dark Gray 1     : var(--dark-gray-1)		(Dialog Header/Top bar backgrounds)
+/* Dark Gray 1 alt : var(--dark-gray-1-alt)	(Dialog Header/Top bar backgrounds)
+/* Dark Gray 2     : var(--dark-gray-2)		(Dialog & General backgrounds)
+/* Dark Gray 3     : var(--dark-gray-3)		(Side Panel background)
+/* Dark Gray 4     : var(--dark-gray-4)		(Panel backgrounds)
+/* Dark Gray 5     : var(--dark-gray-5)		(Dark Divider lines)
+/* Dark Gray 6     : var(--dark-gray-6)		(Light Divider lines)
+/* Dark Gray 7     : var(--dark-gray-7)		(Border-bottom lines)
+/* Black 1         : var(--black-1)		(Light Black)
+/* Black 2         : var(--black-2)		(Dark Black & Pop-up backgrounds)
+/* White 1         : var(--white-color-1)	(Secondary text)
+/* White 2         : var(--white-color-2)	(Field descriptions)
+/* White 3         : var(--white-color-3)	(Real white)
+/* White 4         : var(--white-color-4)	(Side Panel icons)
+
 /* Gray 1      : #9b9b9b              (Link hover & Disabled)
 /* Gray 2      : #4D4D4D              (Sidelink Panel hover backgrounds)
 /* Gray 3      : #404040              (Button backgrounds)
