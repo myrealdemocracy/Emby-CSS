@@ -1,6 +1,8 @@
 /* Emby version : 3.0.6010 and later */
 :root {
   --color-scheme: RED;
+  --logo: url(https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png);
+  --icon: url(https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png);
   --main-color: #E81123;
   --main-color-alt: rgb(232,17,35);
   --accent-color: #94131E;
@@ -114,8 +116,12 @@
 /* --- 1.1 : Buttons --- */
 /* --- Checkboxes --- */
 /* Dashboard Page */
+/*Emby Icons*/
+.imgLogoIcon {
+    content: var(--logo);
+}
 .lnkMediaFolder div:first-child{
-content: url('https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png');
+content: var(--icon);
 }
 div#checkbox.checked.style-scope.paper-checkbox {
 background-color: var(--main-color) !important;
