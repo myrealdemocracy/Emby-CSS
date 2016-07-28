@@ -304,15 +304,6 @@ div#criticReviewsCollapsible {
 	width: 100%;
 	text-align: center;
 }
-.homePageSection .cardBox .cardText {
-    background-color: #52B54B;
-}
-.collapseContent {
-    background-color: #181818 !important;
-}             
-.withBackdrop {
-	background-color: rgba(0,0,0,.5);
-}
 /*Backend Fixes*/
 /*Fix Dasboard Menu Bar Showing Progress Bars*/
 .dashboardDocument .viewMenuBar {
