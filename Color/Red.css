@@ -202,8 +202,11 @@ div.jstree-wholerow.jstree-wholerow-hovered, a.sidebarLink.lnkMediaFolder:hover 
     background: #4D4D4D !important;}
 a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon  {color: #FFFFFF !important;}
 /* --- Others --- */
+paper-input .focused-line, paper-textarea .focused-line {
+    background-color: #E81123 !important;
+}
 :focus {outline: #E81123 auto 5px;}
-::selection{ background-color: #3E8437 !important;}
+::selection{ background-color: #843737 !important;}
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {border-color: #E81123 !important;}
 /* Input/Select/Textarea Highlights */
 .inputLabel.focused:not(.blank) , .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {color: #E81123 !important;}
