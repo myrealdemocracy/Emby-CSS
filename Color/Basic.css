@@ -1,5 +1,6 @@
 /* Emby version : 3.0.6010 and later */
 :root {
+  --color-scheme: RED;
   --main-color: #E81123;
   --main-color-alt: rgb(232,17,35);
   --accent-color: #94131E;
@@ -113,6 +114,9 @@
 /* --- 1.1 : Buttons --- */
 /* --- Checkboxes --- */
 /* Dashboard Page */
+.lnkMediaFolder div.first-child{
+background-image: url('https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/var(--color-scheme)/mblogoicon.png);
+}
 div#checkbox.checked.style-scope.paper-checkbox {
 background-color: var(--main-color) !important;
 border-color: var(--main-color);}
