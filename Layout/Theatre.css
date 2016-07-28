@@ -257,11 +257,6 @@ div.ui-content>div.detailPageContent>.detailSection:first-child {
     margin-right: 60px !important;
     margin-bottom: 30px;
 }
-/*
-div#scenesCollapsible {
-    margin-top: -450px;
-	margin-bottom: 0em !important;
-}*/
 .backdropCard {
     width: 25% !important;
 }
@@ -300,29 +295,6 @@ div#criticReviewsCollapsible {
     margin-bottom: 7em !important;
 }
 }
-/*Frontend Tweaks*/
-/*Make Played Indicator into Ribbon LHS*/
-/*.playedIndicator i, .syncIndicator i {
-	font-size: 150% !important;
-	transform: rotate(45deg) !important;
-}
-.playedIndicator {
-	top: 4px !important;
-	left: -21px !important;
-	width: 75px!important;
-	height: 25px !important;
-	border-radius: 0% !important;
-	transform: rotate(-45deg) !important;
-	background: rgba(82,181,75,.95) !important;
-	border-style: solid !important;
-	border-width: 1px !important;
-	border-color: rgba(255, 255, 255, 0.5) !important;
-}*/
-/*Move Overlay Button to top right*/
-/*.cardOverlayButtonContainer {
-	top: -11px !important;
-	right: -5px !important;
-}*/
 /*Fixed Navigation Arrows In Place*/
  .lnkSibling {
  	position: fixed; top: 25%;
@@ -334,9 +306,6 @@ div#criticReviewsCollapsible {
 }
 .homePageSection .cardBox .cardText {
     background-color: #52B54B;
-}
-.adminDrawer .scrollContainer  {
-    background: #181818 !important;
 }
 .collapseContent {
     background-color: #181818 !important;
