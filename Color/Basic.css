@@ -1,7 +1,7 @@
 /* Emby version : 3.0.6010 and later */
 :root {
   --main-color: #E81123;
-  --main-color-alt: rgb(232,17,35)
+  --main-color-alt: rgb(232,17,35);
   --accent-color: #94131E;
   --glow-color: rgba(232,17,35,.5);
 }
