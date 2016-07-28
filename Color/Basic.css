@@ -1,13 +1,17 @@
 /* Emby version : 3.0.6010 and later */
 :root {
-  --main-color: #fff;
-  --accent-color: #fff;
+  --main-color: #E81123;
+  --main-color-alt: rgb(232,17,35)
+  --accent-color: #94131E;
+  --glow-color: rgba(232,17,35,.5);
 }
 
 /* Color HEX codes */
 
-/* Color (RED) : var(--main-color) & (232,17,35)
+/* Main Color  : var(--main-color)
+/* Main Color2 : var(--main-color-alt)
 /* Dark Color  : var(--accent-color)
+/* Clow Color  : var(--glow-color)
 /* Gray 1      : #9b9b9b              (Link hover & Disabled)
 /* Gray 2      : #4D4D4D              (Sidelink Panel hover backgrounds)
 /* Gray 3      : #404040              (Button backgrounds)
@@ -169,7 +173,7 @@ button[is="emby-button"].accent {color: var(--main-color);}
 /* Home Page */
 .playedIndicator {background-color: var(--main-color) !important;}
 .starRatingContainer i {color: var(--main-color) !important;}
-.missingPosterRibbon {background: rgba(232,17,35,.8);}
+.missingPosterRibbon {background: var(--glow-color);}
 /* Dashboard */
 paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {color: var(--main-color) !important;}
 p#pUpToDate svg.style-scope.iron-icon {
@@ -226,9 +230,9 @@ paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focu
     box-shadow: 0 0 20px 3px var(--main-color);}
 /*Glow for userview cards */
 .itemsContainer.homeTopViews .cardContent {
-  border: 1px solid rgba(232,17,35,.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(232,17,35,.5);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(232,17,35,.5);
+  border: 1px solid var(--glow-color);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px var(--glow-color);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px var(--glow-color);
 }
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
     -moz-box-shadow: 0 0 0 5px var(--main-color);
