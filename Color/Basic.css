@@ -115,7 +115,7 @@
 /* --- Checkboxes --- */
 /* Dashboard Page */
 .lnkMediaFolder div.first-child{
-background-image: url('https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/var(--color-scheme)/mblogoicon.png);
+background-image: url('https://gitcdn.xyz/repo/Nickbert7/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png');
 }
 div#checkbox.checked.style-scope.paper-checkbox {
 background-color: var(--main-color) !important;
