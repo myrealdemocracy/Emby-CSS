@@ -92,7 +92,7 @@ p.itemGenres {
 div.detailButtonsContainer {
     margin-left: -3px;
     font-size: 120%;
-    top: 55px;
+    top: -40px;
     z-index: 1000;
     position: relative;
 }
