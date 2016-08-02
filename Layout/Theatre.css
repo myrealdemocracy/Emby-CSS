@@ -209,11 +209,6 @@ div#childrenCollapsible.hide {
     visibility: hidden;
 }
 
-div#castContent {
-    align-items: flex-end;
-    flex-wrap: wrap;
-}
-
 paper-button.more.morePeople {
     margin-bottom: 11px;
 }
