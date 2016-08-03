@@ -92,7 +92,6 @@ p.itemGenres {
 div.detailButtonsContainer {
     margin-left: -3px;
     font-size: 120%;
-    top: -40px;
     z-index: 1000;
     position: relative;
 }
@@ -191,7 +190,7 @@ div.detailNameContainer>div:first-child {
     flex-direction: column;
 }
 .btnPlay.detailFloatingButton {
-    top: 275px;
+    top: 230px;
     z-index: 1001;
     left: 1100px;
     position: absolute;
