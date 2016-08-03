@@ -322,7 +322,7 @@ div#criticReviewsCollapsible {
 /*Make Played Indicator into Ribbon LHS*/
 .playedIndicator i, .syncIndicator i {font-size: 150%; transform: rotate(45deg);}
 .card .playedIndicator, .card .countIndicator {width: 75px; height: 25px; border-radius: 0%; transform: rotate(-45deg); border-style: solid; border-width: 1px; border-color: rgba(255, 255, 255, 0.5); display: flex; align-items: center; justify-content: center;}
-.card .indicators {right: initial !important; top: -1px !important; left: -21px;;}
+.card .indicators {right: initial !important; top: 4px !important; left: -21px;;}
 
 /*Move Overlay Button to top right*/
 .cardOverlayButton {bottom: initial !important; top: 5px !important;}
