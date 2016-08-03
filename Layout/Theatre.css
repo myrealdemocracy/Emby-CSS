@@ -121,10 +121,9 @@ div.detailNameContainer>div:first-child {
     /* text-align: center; */
     max-width: 1200px;
     min-width: 500px;
-    height: 140px;
+    height: 50px;
     overflow: hidden;
     margin-top: -45px;
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
